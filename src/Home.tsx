@@ -3,7 +3,7 @@ import Mithril, { Component } from "mithril";
 const Home: Component = {
   view() {
     return (
-      <article>
+      <article class="page-content">
         <h1>Hello, world</h1>
         <p class="py-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore

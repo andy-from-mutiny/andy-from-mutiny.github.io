@@ -2,7 +2,11 @@ import Mithril, { Component } from "mithril";
 
 const Contact: Component = {
   view() {
-    return <h1>Contact</h1>;
+    return (
+      <div class="page-content">
+        <h1>Contact</h1>
+      </div>
+    );
   },
 };
 

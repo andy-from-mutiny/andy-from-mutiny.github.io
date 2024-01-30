@@ -155,3 +155,14 @@ body {
 .gap-xl {
   gap: 1.95rem;
 }
+.page-content {
+  animation: fade-in 0.25s;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
