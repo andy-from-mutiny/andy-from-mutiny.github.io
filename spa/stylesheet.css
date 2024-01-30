@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  display: block;
+  box-sizing: border-box;
+  background: linear-gradient(#e66465, #9198e5);
+  color: #1b1b1b;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+.page {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.flex {
+  display: flex;
+}
+.box {
+  display: block;
+}
+.col {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+.auto-layout {
+  justify-content: space-between;
+}
+.span-1 {
+  flex: 1;
+}
+.span-2 {
+  flex: 2;
+}
+.span-3 {
+  flex: 3;
+}
+.span-4 {
+  flex: 4;
+}
+.span-5 {
+  flex: 5;
+}
+.span-6 {
+  flex: 6;
+}
+.p-1 {
+  padding: 0.2rem;
+}
+.p-2 {
+  padding: 0.45rem;
+}
+.p-3 {
+  padding: 1rem;
+}
+.p-4 {
+  padding: 1.5rem;
+}
+.p-5 {
+  padding: 1.95rem;
+}
+.p-6 {
+  padding: 2.5rem;
+}
+.px-1 {
+  padding: 0 0.2rem;
+}
+.px-2 {
+  padding: 0 0.45rem;
+}
+.px-3 {
+  padding: 0 1rem;
+}
+.px-4 {
+  padding: 0 1.5rem;
+}
+.px-5 {
+  padding: 0 1.95rem;
+}
+.px-6 {
+  padding: 0 2.5rem;
+}
+.py-1 {
+  padding: 0.2rem 0;
+}
+.py-2 {
+  padding: 0.45rem 0;
+}
+.py-3 {
+  padding: 1rem 0;
+}
+.py-4 {
+  padding: 1.5rem 0;
+}
+.py-5 {
+  padding: 1.95rem 0;
+}
+.py-6 {
+  padding: 2.5rem 0;
+}
+.mt-1 {
+  margin-top: 0.2rem;
+}
+.mt-2 {
+  margin-top: 0.45rem;
+}
+.mt-3 {
+  margin-top: 1rem;
+}
+.mt-4 {
+  margin-top: 1.5rem;
+}
+.mt-5 {
+  margin-top: 1.95rem;
+}
+.mt-6 {
+  margin-top: 2.5rem;
+}
+.nav {
+  height: 60px;
+}
+.container {
+  border-radius: 2px;
+  min-height: 0;
+  overflow-y: auto;
+}
+.bg-white {
+  background: #fff;
+}
+.gap-xs {
+  gap: 0.2rem;
+}
+.gap-sm {
+  gap: 0.45rem;
+}
+.gap-md {
+  gap: 1rem;
+}
+.gap-lg {
+  gap: 1.5rem;
+}
+.gap-xl {
+  gap: 1.95rem;
+}

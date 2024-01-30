@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "mithril": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/mithril": "^2.2.6",
+    "esbuild": "0.20.0",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build:watch": "esbuild src/index.tsx --outfile=bundle.js --bundle --minify --loader:.ts=ts --servedir=.",
+    "build": "esbuild src/index.tsx --outfile=bundle.js --bundle --minify --loader:.ts=ts"
+  }
+}
