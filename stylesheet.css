@@ -39,6 +39,9 @@ body {
 .auto-layout {
   justify-content: space-between;
 }
+.fill-layout {
+  justify-content: space-evenly;
+}
 .span-1 {
   flex: 1;
 }
